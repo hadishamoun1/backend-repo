@@ -8,4 +8,4 @@ with open(config_file, 'r') as f:
 
 server_ip = config.get('ip_address')
 
-print(f"the server connected at IP address: {server_ip}")
+print(f"the server running at IP address: {server_ip}")
